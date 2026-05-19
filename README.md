@@ -8,6 +8,7 @@ Een kwalificeerbaar aspect drukt uit dat de waarde die aan een observatie kan wo
 
 - Concept scheme URI: `https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwalificeerbaaraspect`
 - Namespace: `https://data.omgeving.vlaanderen.be/ns/csor#`
+- Named graph (Virtuoso): `https://data.omgeving.vlaanderen.be/id/graph/codelijst-csor-kwalificeerbaar-aspect`
 
 ## Bestandsstructuur
 
