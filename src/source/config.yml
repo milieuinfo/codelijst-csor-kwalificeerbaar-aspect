@@ -7,7 +7,7 @@ skos:
     concept : https://data.omgeving.vlaanderen.be/id/concept/csor/kwalificeerbaaraspect/
     collectie : https://data.omgeving.vlaanderen.be/id/collection/csor/kwalificeerbaaraspect/
   path: ./main/resources/be/vlaanderen/omgeving/data/id/conceptscheme/csor/
-  name: kwalificeerbareaspect
+  name: kwalificeerbaaraspect
   nt: .nt
 
 source:

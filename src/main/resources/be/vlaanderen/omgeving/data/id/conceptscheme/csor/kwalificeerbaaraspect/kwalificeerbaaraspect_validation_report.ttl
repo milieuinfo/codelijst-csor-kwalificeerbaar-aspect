@@ -3,6 +3,7 @@ PREFIX csor-constraints: <https://data.omgeving.vlaanderen.be/ns/csor-constraint
 PREFIX dcterms:          <http://purl.org/dc/terms/>
 PREFIX iadopt:           <https://w3id.org/iadopt/ont/>
 PREFIX owl:              <http://www.w3.org/2002/07/owl#>
+PREFIX pubChem:          <https://pubchem.ncbi.nlm.nih.gov/rest/rdf/>
 PREFIX qudt:             <http://qudt.org/schema/qudt/>
 PREFIX rdf:              <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
 PREFIX rdfs:             <http://www.w3.org/2000/01/rdf-schema#>
@@ -13,11 +14,11 @@ PREFIX xsd:              <http://www.w3.org/2001/XMLSchema#>
 [ rdf:type     sh:ValidationReport;
   sh:conforms  false;
   sh:result    [ rdf:type                      sh:ValidationResult;
-                 sh:focusNode                  <https://data.omgeving.vlaanderen.be/id/concept/csor/kwalificeerbaaraspect/KWL_1>;
-                 sh:resultMessage              "Een kwalificeerbaar aspect heeft exact 1 classificatielijst"@nl;
-                 sh:resultPath                 csor:classificatielijst;
+                 sh:focusNode                  <https://data.omgeving.vlaanderen.be/id/conceptscheme/csor/kwalificeerbaaraspect>;
+                 sh:resultMessage              "HasTopConcept moet verplicht minstens 1 concept bevatten.";
+                 sh:resultPath                 skos:hasTopConcept;
                  sh:resultSeverity             sh:Violation;
                  sh:sourceConstraintComponent  sh:MinCountConstraintComponent;
-                 sh:sourceShape                csor-constraints:classificatielijst
+                 sh:sourceShape                csor-constraints:hasTopConcept
                ]
 ] .
