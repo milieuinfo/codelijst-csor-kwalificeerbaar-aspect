@@ -9,14 +9,14 @@
   <packaging>jar</packaging>
   <groupId>be.vlaanderen.omgeving.data.id.graph</groupId>
   <artifactId>codelijst-csor-kwalificeerbaar-aspect</artifactId>
-  <version>0.1.0</version>
+  <version>0.1.1-SNAPSHOT</version>
   <name>codelijst-csor-kwalificeerbaar-aspect</name>
   <description />
   <scm>
     <connection>scm:git:https://github.com/milieuinfo/codelijst-csor-kwalificeerbaar-aspect.git</connection>
     <developerConnection>scm:git:https://github.com/milieuinfo/codelijst-csor-kwalificeerbaar-aspect.git</developerConnection>
     <url>https://github.com/milieuinfo/codelijst-csor-kwalificeerbaar-aspect.git</url>
-    <tag>codelijst-csor-kwalificeerbaar-aspect-0.1.0</tag>
+    <tag>HEAD</tag>
   </scm>
   <build>
     <plugins>
